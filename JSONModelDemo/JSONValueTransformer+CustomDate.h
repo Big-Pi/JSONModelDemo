@@ -9,6 +9,4 @@
 #import <JSONModel/JSONModel.h>
 
 @interface JSONValueTransformer (CustomDate)
--(NSDate*)NSDateFromNSString:(NSString*)string;
--(NSString*)JSONObjectFromNSDate:(NSDate*)date;
 @end

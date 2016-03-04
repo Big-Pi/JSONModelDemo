@@ -39,7 +39,7 @@ NSString *const kUrl=@"http://news-at.zhihu.com/api/4/news/latest";
         self.result=[[ZhiHuApiResult alloc]initWithDictionary:dict error:&error];
     }];
     
-    //示例 3
+    //示例 3 ,示例2的简化方法
     [ZhiHuApiResult getModelFromURLWithString:kUrl completion:^(id model, JSONModelError *err) {
         self.result=model;
     }];
